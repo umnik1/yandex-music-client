@@ -1,0 +1,26 @@
+{
+  "name": "yandex-music-client",
+  "repository": {
+    "url": "https://github.com/umnik1/yandex-music-client"
+  },
+  "keywords": [
+    "yandex",
+    "music",
+    "api",
+    "wrapper",
+    "yandex.music"
+  ],
+  "files": [
+    "*"
+  ],
+  "version": "0.4.3",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "form-data": "^4.0.0"
+  }
+}

@@ -1,0 +1,41 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserService = exports.TracksService = exports.TagsService = exports.SearchService = exports.RotorService = exports.QueuesService = exports.PlaylistsService = exports.LandingService = exports.DefaultService = exports.ArtistsService = exports.AlbumsService = exports.AccountService = exports.OpenAPI = exports.CancelError = exports.CancelablePromise = exports.BaseHttpRequest = exports.ApiError = exports.YandexMusicClient = void 0;
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+var YandexMusicClient_1 = require("./YandexMusicClient");
+Object.defineProperty(exports, "YandexMusicClient", { enumerable: true, get: function () { return YandexMusicClient_1.YandexMusicClient; } });
+var ApiError_1 = require("./core/ApiError");
+Object.defineProperty(exports, "ApiError", { enumerable: true, get: function () { return ApiError_1.ApiError; } });
+var BaseHttpRequest_1 = require("./core/BaseHttpRequest");
+Object.defineProperty(exports, "BaseHttpRequest", { enumerable: true, get: function () { return BaseHttpRequest_1.BaseHttpRequest; } });
+var CancelablePromise_1 = require("./core/CancelablePromise");
+Object.defineProperty(exports, "CancelablePromise", { enumerable: true, get: function () { return CancelablePromise_1.CancelablePromise; } });
+Object.defineProperty(exports, "CancelError", { enumerable: true, get: function () { return CancelablePromise_1.CancelError; } });
+var OpenAPI_1 = require("./core/OpenAPI");
+Object.defineProperty(exports, "OpenAPI", { enumerable: true, get: function () { return OpenAPI_1.OpenAPI; } });
+var AccountService_1 = require("./services/AccountService");
+Object.defineProperty(exports, "AccountService", { enumerable: true, get: function () { return AccountService_1.AccountService; } });
+var AlbumsService_1 = require("./services/AlbumsService");
+Object.defineProperty(exports, "AlbumsService", { enumerable: true, get: function () { return AlbumsService_1.AlbumsService; } });
+var ArtistsService_1 = require("./services/ArtistsService");
+Object.defineProperty(exports, "ArtistsService", { enumerable: true, get: function () { return ArtistsService_1.ArtistsService; } });
+var DefaultService_1 = require("./services/DefaultService");
+Object.defineProperty(exports, "DefaultService", { enumerable: true, get: function () { return DefaultService_1.DefaultService; } });
+var LandingService_1 = require("./services/LandingService");
+Object.defineProperty(exports, "LandingService", { enumerable: true, get: function () { return LandingService_1.LandingService; } });
+var PlaylistsService_1 = require("./services/PlaylistsService");
+Object.defineProperty(exports, "PlaylistsService", { enumerable: true, get: function () { return PlaylistsService_1.PlaylistsService; } });
+var QueuesService_1 = require("./services/QueuesService");
+Object.defineProperty(exports, "QueuesService", { enumerable: true, get: function () { return QueuesService_1.QueuesService; } });
+var RotorService_1 = require("./services/RotorService");
+Object.defineProperty(exports, "RotorService", { enumerable: true, get: function () { return RotorService_1.RotorService; } });
+var SearchService_1 = require("./services/SearchService");
+Object.defineProperty(exports, "SearchService", { enumerable: true, get: function () { return SearchService_1.SearchService; } });
+var TagsService_1 = require("./services/TagsService");
+Object.defineProperty(exports, "TagsService", { enumerable: true, get: function () { return TagsService_1.TagsService; } });
+var TracksService_1 = require("./services/TracksService");
+Object.defineProperty(exports, "TracksService", { enumerable: true, get: function () { return TracksService_1.TracksService; } });
+var UserService_1 = require("./services/UserService");
+Object.defineProperty(exports, "UserService", { enumerable: true, get: function () { return UserService_1.UserService; } });

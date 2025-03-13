@@ -1,0 +1,32 @@
+import type { BaseHttpRequest } from './core/BaseHttpRequest';
+import type { OpenAPIConfig } from './core/OpenAPI';
+import { AccountService } from './services/AccountService';
+import { AlbumsService } from './services/AlbumsService';
+import { ArtistsService } from './services/ArtistsService';
+import { DefaultService } from './services/DefaultService';
+import { LandingService } from './services/LandingService';
+import { PlaylistsService } from './services/PlaylistsService';
+import { QueuesService } from './services/QueuesService';
+import { RotorService } from './services/RotorService';
+import { SearchService } from './services/SearchService';
+import { TagsService } from './services/TagsService';
+import { TracksService } from './services/TracksService';
+import { UserService } from './services/UserService';
+type HttpRequestConstructor = new (config: OpenAPIConfig) => BaseHttpRequest;
+export declare class YandexMusicClient {
+    readonly account: AccountService;
+    readonly albums: AlbumsService;
+    readonly artists: ArtistsService;
+    readonly default: DefaultService;
+    readonly landing: LandingService;
+    readonly playlists: PlaylistsService;
+    readonly queues: QueuesService;
+    readonly rotor: RotorService;
+    readonly search: SearchService;
+    readonly tags: TagsService;
+    readonly tracks: TracksService;
+    readonly user: UserService;
+    readonly request: BaseHttpRequest;
+    constructor(config?: Partial<OpenAPIConfig>, HttpRequest?: HttpRequestConstructor);
+}
+export {};
